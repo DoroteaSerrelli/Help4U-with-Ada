@@ -1,0 +1,4689 @@
+{
+  "intents": [
+    {
+      "intent": "addii",
+      "examples": [
+        {
+          "text": "Addio"
+        },
+        {
+          "text": "A più tardi"
+        },
+        {
+          "text": "A presto"
+        },
+        {
+          "text": "Arrivederci"
+        },
+        {
+          "text": "Arrivederci!"
+        },
+        {
+          "text": "Buona giornata"
+        },
+        {
+          "text": "Buona serata"
+        }
+      ],
+      "description": "L'utente dice addio ad Ada"
+    },
+    {
+      "intent": "aiuto",
+      "examples": [
+        {
+          "text": "Aiutami Ada"
+        },
+        {
+          "text": "Aiuto"
+        },
+        {
+          "text": "Connettimi al dottore"
+        },
+        {
+          "text": "Connettimi alla dottoressa"
+        },
+        {
+          "text": "Connettimi al mio medico curante"
+        },
+        {
+          "text": "Fammi parlare con il medico"
+        },
+        {
+          "text": "Voglio parlare con il dottore"
+        },
+        {
+          "text": "Voglio parlare con il medico"
+        },
+        {
+          "text": "Voglio parlare con la dottoressa"
+        },
+        {
+          "text": "Vorrei parlare con il medico"
+        }
+      ],
+      "description": "L'utente chiede ad Ada di connettersi al medico"
+    },
+    {
+      "intent": "annullare_prenotazione",
+      "examples": [
+        {
+          "text": "Annullamento appuntamento"
+        },
+        {
+          "text": "Annullamento visita"
+        },
+        {
+          "text": "Annullare"
+        },
+        {
+          "text": "Cancellare visita"
+        },
+        {
+          "text": "Disdire un colloquio con il medico"
+        },
+        {
+          "text": "Eliminazione appuntamento"
+        },
+        {
+          "text": "Voglio annullare un appuntamento"
+        },
+        {
+          "text": "Voglio disdire una visita medica"
+        },
+        {
+          "text": "Vorrei annullare una prenotazione"
+        },
+        {
+          "text": "Vorrei cancellare una visita"
+        }
+      ],
+      "description": "L'utente chiede di annullare una prenotazione"
+    },
+    {
+      "intent": "contatti_utili",
+      "examples": [
+        {
+          "text": "Asl pec"
+        },
+        {
+          "text": "Contatti utili"
+        },
+        {
+          "text": "E-mail ASL"
+        },
+        {
+          "text": "Email Asl"
+        },
+        {
+          "text": "E-mail medico curante"
+        },
+        {
+          "text": "E-mail utili"
+        },
+        {
+          "text": "Ho bisogno di aiuto. Chi posso contattare?"
+        },
+        {
+          "text": "Info utili"
+        },
+        {
+          "text": "Medico curante PEC"
+        },
+        {
+          "text": "Numeri ed email utili"
+        },
+        {
+          "text": "Numeri per le emergenze"
+        },
+        {
+          "text": "Numeri SOS"
+        },
+        {
+          "text": "Numero Covid regionale"
+        },
+        {
+          "text": "Numero del medico di base"
+        },
+        {
+          "text": "Numero di pronto soccorso"
+        },
+        {
+          "text": "Numero di telefono ASL"
+        },
+        {
+          "text": "Numero di telefono guardia medica"
+        },
+        {
+          "text": "PEC ASL"
+        },
+        {
+          "text": "Pec medico di base"
+        },
+        {
+          "text": "PEC utili"
+        },
+        {
+          "text": "Qual è il numero di telefono della guardia medica?"
+        },
+        {
+          "text": "SOS"
+        }
+      ],
+      "description": "Numeri utili (medico, ASL, guardia medica, ... )"
+    },
+    {
+      "intent": "fare_prenotazione",
+      "examples": [
+        {
+          "text": "Disponibilità appuntamento medico"
+        },
+        {
+          "text": "disponibilità tampone"
+        },
+        {
+          "text": "Fissare una prenotazione"
+        },
+        {
+          "text": "Mi serve un @operazioni_medico"
+        },
+        {
+          "text": "Mi servirebbe un @operazioni_medico"
+        },
+        {
+          "text": "Prenotare"
+        },
+        {
+          "text": "Prenotazione colloquio con il medico"
+        },
+        {
+          "text": "Prenotazione visita"
+        },
+        {
+          "text": "Quando posso prendere un appuntamento?"
+        },
+        {
+          "text": "Quando posso prenotare un appuntamento con il medico?"
+        },
+        {
+          "text": "Voglio fissare un appuntamento"
+        },
+        {
+          "text": "Voglio prenotare"
+        },
+        {
+          "text": "Vorrei fissare un appuntamento"
+        },
+        {
+          "text": "Vorrei prenotare"
+        },
+        {
+          "text": "Vorrei prenotare un appuntamento con il medico di base"
+        },
+        {
+          "text": "Vorrei prenotare una visita"
+        }
+      ],
+      "description": "L'utente chiede di prenotare una visita"
+    },
+    {
+      "intent": "feedback_negativo",
+      "examples": [
+        {
+          "text": "Lavoro insufficiente"
+        },
+        {
+          "text": "Lavoro non sufficiente"
+        },
+        {
+          "text": "Lavoro pessimo"
+        },
+        {
+          "text": "Mi deludi"
+        },
+        {
+          "text": "Non mi aiuti"
+        },
+        {
+          "text": "Non mi piaci"
+        },
+        {
+          "text": "Pessimo lavoro"
+        }
+      ],
+      "description": "L'utente fornisce ad Ada un feedback negativo"
+    },
+    {
+      "intent": "feedback_positivo",
+      "examples": [
+        {
+          "text": "Adoro il tuo lavoro"
+        },
+        {
+          "text": "Apprezzo il tuo lavoro"
+        },
+        {
+          "text": "Brava!"
+        },
+        {
+          "text": "Buon lavoro"
+        },
+        {
+          "text": "Eccezionale"
+        },
+        {
+          "text": "È tutto perfetto"
+        },
+        {
+          "text": "È un ottimo lavoro"
+        },
+        {
+          "text": "Fantastico"
+        },
+        {
+          "text": "Forte!"
+        },
+        {
+          "text": "Mi hai salvato la vita"
+        },
+        {
+          "text": "Ottimo"
+        },
+        {
+          "text": "Penso che tu abbia dei super poteri"
+        },
+        {
+          "text": "Sei bravissima!"
+        },
+        {
+          "text": "Sei forte"
+        },
+        {
+          "text": "Sei la migliore"
+        },
+        {
+          "text": "Sei perfetta"
+        },
+        {
+          "text": "Sei stata davvero utile"
+        },
+        {
+          "text": "sei straordinaria"
+        },
+        {
+          "text": "Sei un genio!"
+        },
+        {
+          "text": "Sei utile"
+        },
+        {
+          "text": "Straordinario"
+        }
+      ],
+      "description": "L'utente fornisce un feedback positivo ad Ada"
+    },
+    {
+      "intent": "info_studio_generali",
+      "examples": [
+        {
+          "text": "Ada, cosa mi puoi dire sullo studio medico?"
+        },
+        {
+          "text": "Cosa sai dello studio medico?"
+        },
+        {
+          "text": "Informazioni studio medico"
+        },
+        {
+          "text": "Info studio medico"
+        },
+        {
+          "text": "Studio medico"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "modificare_prenotazione",
+      "examples": [
+        {
+          "text": "Aggiornare i dati di una prenotazione"
+        },
+        {
+          "text": "Aggiornare una prenotazione"
+        },
+        {
+          "text": "Devo apportare delle modifiche ad una prenotazione"
+        },
+        {
+          "text": "Devo modificare un appuntamento"
+        },
+        {
+          "text": "Modifica appuntamento"
+        },
+        {
+          "text": "Modificare"
+        },
+        {
+          "text": "Possibilità di modificare una prenotazione"
+        },
+        {
+          "text": "Voglio aggiornare i dati di un appuntamento"
+        },
+        {
+          "text": "Voglio aggiornare una visita"
+        },
+        {
+          "text": "Voglio cambiare una prenotazione"
+        },
+        {
+          "text": "Voglio modificare i dati della prenotazione"
+        },
+        {
+          "text": "Voglio modificare una prenotazione"
+        },
+        {
+          "text": "Vorrei modificare una prenotazione"
+        }
+      ],
+      "description": "L'utente chiede di modificare una prenotazione"
+    },
+    {
+      "intent": "no",
+      "examples": [
+        {
+          "text": "Ma anche no"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "No grazie"
+        },
+        {
+          "text": "No, grazie"
+        },
+        {
+          "text": "None"
+        },
+        {
+          "text": "non è così"
+        },
+        {
+          "text": "Non è necessario"
+        },
+        {
+          "text": "non serve"
+        }
+      ],
+      "description": "Disaccordo dell'utente"
+    },
+    {
+      "intent": "operazioni_medico",
+      "examples": [
+        {
+          "text": "Compiti del medico"
+        },
+        {
+          "text": "Cosa fa il medico?"
+        },
+        {
+          "text": "Cosa posso chiedere al mio medico?"
+        },
+        {
+          "text": "Cosa posso prenotare?"
+        },
+        {
+          "text": "Cosa può fare il mio medico di base?"
+        },
+        {
+          "text": "Mansioni del medico"
+        },
+        {
+          "text": "Operazioni medico di base"
+        },
+        {
+          "text": "Quali visite può effettuare il medico di base?"
+        },
+        {
+          "text": "Quali visite può fare il medico?"
+        },
+        {
+          "text": "tipi visite mediche"
+        }
+      ],
+      "description": "L'utente chiede cosa può fare il medico"
+    },
+    {
+      "intent": "orari_apertura",
+      "examples": [
+        {
+          "text": "Apertura studio medico"
+        },
+        {
+          "text": "Orari dello studio del mio dottore"
+        },
+        {
+          "text": "Orario studio medico"
+        },
+        {
+          "text": "Orari studio medico"
+        },
+        {
+          "text": "Quando apre lo studio del mio medico curante?"
+        },
+        {
+          "text": "Quando apre lo studio medico?"
+        },
+        {
+          "text": "Quando è aperto lo studio del mio medico di base?"
+        },
+        {
+          "text": "Quando è aperto lo studio medico?"
+        },
+        {
+          "text": "Quando il mio dottore è aperto al pubblico?"
+        },
+        {
+          "text": "Studio medico apertura"
+        }
+      ],
+      "description": "L'utente chiede gli orari di apertura dello studio medico"
+    },
+    {
+      "intent": "posizione_studio_medico",
+      "examples": [
+        {
+          "text": "Come è possibile raggiungere lo studio del mio medico?"
+        },
+        {
+          "text": "Come posso raggiungere il mio medico?"
+        },
+        {
+          "text": "Come posso raggiungere lo studio medico?"
+        },
+        {
+          "text": "Dove posso trovare il mio medico?"
+        },
+        {
+          "text": "Dove posso trovare lo studio medico?"
+        },
+        {
+          "text": "Dove si trova lo studio del mio medico?"
+        },
+        {
+          "text": "Dove si trova lo studio medico?"
+        },
+        {
+          "text": "posizione"
+        },
+        {
+          "text": "Posizione studio medico"
+        },
+        {
+          "text": "Studio medico posizione"
+        },
+        {
+          "text": "Vorrei sapere la posizione dello studio medico"
+        }
+      ],
+      "description": "L'utente chiede la posizione dello studio medico"
+    },
+    {
+      "intent": "ringraziamenti",
+      "examples": [
+        {
+          "text": "Grazie"
+        },
+        {
+          "text": "Grazie!"
+        },
+        {
+          "text": "Grazie mille"
+        },
+        {
+          "text": "Grazie tantissimo!"
+        },
+        {
+          "text": "grazie tanto"
+        },
+        {
+          "text": "la ringrazio"
+        },
+        {
+          "text": "Ti ringrazio"
+        }
+      ],
+      "description": "L'utente ringrazia Ada"
+    },
+    {
+      "intent": "saluti",
+      "examples": [
+        {
+          "text": "Ada"
+        },
+        {
+          "text": "Buonasera"
+        },
+        {
+          "text": "Buongiorno!"
+        },
+        {
+          "text": "Ciao"
+        },
+        {
+          "text": "Ciao!"
+        },
+        {
+          "text": "Ciao Ada"
+        },
+        {
+          "text": "Hey!"
+        },
+        {
+          "text": "Hey Ada"
+        },
+        {
+          "text": "Salve"
+        }
+      ],
+      "description": "L'utente saluta Ada appena entra"
+    },
+    {
+      "intent": "si",
+      "examples": [
+        {
+          "text": "Certo"
+        },
+        {
+          "text": "Ok"
+        },
+        {
+          "text": "Ovvio"
+        },
+        {
+          "text": "Perfetto"
+        },
+        {
+          "text": "Si"
+        },
+        {
+          "text": "Sì"
+        },
+        {
+          "text": "Si, grazie"
+        },
+        {
+          "text": "Va bene"
+        },
+        {
+          "text": "Yeah"
+        }
+      ],
+      "description": "Affermazione dell'utente"
+    },
+    {
+      "intent": "sistema_prenotazione",
+      "examples": [
+        {
+          "text": "Ada cos'è il sistema di prenotazione?"
+        },
+        {
+          "text": "Che cosa è il sistema di prenotazione?"
+        },
+        {
+          "text": "Cosa posso fare nel sistema di prenotazione?"
+        },
+        {
+          "text": "Informazioni sistema di prenotazione"
+        },
+        {
+          "text": "Mandami al sistema di prenotazione"
+        },
+        {
+          "text": "sistema di prenotazione"
+        },
+        {
+          "text": "Spiegami cosa è il sistema di prenotazione"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "studio_medico",
+      "examples": [
+        {
+          "text": "Cosa posso chiedere sullo studio medico?"
+        },
+        {
+          "text": "Informazioni studio medico"
+        },
+        {
+          "text": "Informazioni sullo studio del dottore"
+        },
+        {
+          "text": "Info studio medico"
+        },
+        {
+          "text": "Info sullo studio della dottoressa"
+        },
+        {
+          "text": "Studio medico"
+        },
+        {
+          "text": "Vorrei sapere alcune informazioni sullo studio medico"
+        }
+      ],
+      "description": "L'utente chiede informazioni sullo studio medico"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "codice_esenzione",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "002A",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "003",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "005",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "006",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "008",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "009",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "011",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "013",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "014",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "017",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "018",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "020",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "021",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "022",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "023",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "024",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "028",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "029",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "038",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "044",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "045",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "046",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "048",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "050",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "051",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "052",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "054",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "056",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "058",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "065",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "067",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "0A02",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "0B02",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "A01",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "A02",
+          "synonyms": []
+        },
+        {
+          "type": "patterns",
+          "value": "AP",
+          "patterns": [
+            "(AP)\\d{1,12}"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "B01",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "C01",
+          "synonyms": [
+            "S57"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "C02",
+          "synonyms": [
+            "S52"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "C03",
+          "synonyms": [
+            "S51"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "C04",
+          "synonyms": [
+            "S52"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "C05",
+          "synonyms": [
+            "S58"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "C06",
+          "synonyms": [
+            "S53"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "C07",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "D01",
+          "synonyms": [
+            "PE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "D02",
+          "synonyms": [
+            "PE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "D03",
+          "synonyms": [
+            "PE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "D04",
+          "synonyms": [
+            "PE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "D05",
+          "synonyms": [
+            "PE"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "D06",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "E01",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "E02",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "E03",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "E04",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "F01",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "G01",
+          "synonyms": [
+            "S48"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "G02",
+          "synonyms": [
+            "S36"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "GM",
+          "patterns": [
+            "(GM)\\d{0,99}"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "I01",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "L01",
+          "synonyms": [
+            "S59"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "L02",
+          "synonyms": [
+            "S49"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "L03",
+          "synonyms": [
+            "S37"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "L04",
+          "synonyms": [
+            "INAIL",
+            "S38"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "N01",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "P01",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "P02",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "P03",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PML",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "R99",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RC0070",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RCG150",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RCG160",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RCG161",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RCO190",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RCO191",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RCO200",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RCO220",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RCO290",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RDG010",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RDG050",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RF0100",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RFG101",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "RHG010",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "S01",
+          "synonyms": [
+            "S56"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "S02",
+          "synonyms": [
+            "S50"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "S03",
+          "synonyms": [
+            "S39"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "S04",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "T01",
+          "synonyms": [
+            "P36",
+            "P37"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "TDL01",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "V01",
+          "synonyms": [
+            "P42"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "V02",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "X01",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "codice_fiscale",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Codice Fiscale riconosciuto",
+          "patterns": [
+            "[a-zA-Z]{6}(\\d{2})[a-zA-Z]{1}(\\d{2})[a-zA-Z]{1}(\\d{3})[a-zA-Z]{1}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "feriali",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Giovedì",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lunedì",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Martedì",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mercoledì",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Sabato",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Venerdì",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "festivi",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Capodanno",
+          "synonyms": [
+            "1 Gennaio",
+            "Gennaio 1",
+            "Primo dell'anno"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Domenica",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Epifania",
+          "synonyms": [
+            "6 Gennaio",
+            "Gennaio 6"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ferragosto",
+          "synonyms": [
+            "15 Agosto",
+            "Agosto 15"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Festa della Liberazione",
+          "synonyms": [
+            "25 Aprile",
+            "Aprile 25"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Festa della Repubblica",
+          "synonyms": [
+            "2 Giugno",
+            "Giugno 2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Festa del Lavoro",
+          "synonyms": [
+            "1 Maggio",
+            "Maggio 1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Giorno dei morti",
+          "synonyms": [
+            "2 Novembre",
+            "Commemorazione dei defunti",
+            "Novembre 2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Immacolata Concezione",
+          "synonyms": [
+            "8 Dicembre",
+            "Dicembre 8",
+            "Immacolata"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Lunedì di Pasqua",
+          "synonyms": [
+            "Lunedì dell'angelo",
+            "Pasquetta"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Natale",
+          "synonyms": [
+            "25 Dicembre",
+            "Dicembre 25"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ognissanti",
+          "synonyms": [
+            "1 Novembre",
+            "Novembre 1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pasqua",
+          "synonyms": [
+            "Domenica di Pasqua"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pasquetta",
+          "synonyms": [
+            "Lunedì dell'Angelo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "San Modestino",
+          "synonyms": [
+            "14 Febbraio",
+            "Febbraio 14",
+            "San Valentino"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Santo Stefano",
+          "synonyms": [
+            "26 Dicembre",
+            "Dicembre 26"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "numero_telefono",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Zip",
+          "patterns": [
+            "(\\d{3})-(\\d{3})-(\\d{4})"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "operazioni_medico",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Certificato",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Controllo delle analisi",
+          "synonyms": [
+            "Check up",
+            "check-up",
+            "controlli",
+            "Controlli di routine",
+            "Controllo",
+            "Controllo di routine",
+            "Controllo generale"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Prescrizione",
+          "synonyms": [
+            "Prescrizione controllo da uno specialista",
+            "Prescrizione farmaci",
+            "Prescrizione per cura",
+            "Prescrizione per terapia",
+            "Prescrizione visita specialistica",
+            "Prescrizioni"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Tampone",
+          "synonyms": [
+            "tampone",
+            "Tampone rapido",
+            "tamponi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vaccino",
+          "synonyms": [
+            "Vaccinazione",
+            "Vaccinazioni",
+            "Vaccini"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Visita domiciliare",
+          "synonyms": [
+            "Visita a casa",
+            "visite domiciliari"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Visite sportivi",
+          "synonyms": [
+            "visita per sportivi",
+            "visita sportiva",
+            "Visite alle squadre sportive",
+            "Visite giocatori",
+            "visite per sportivi",
+            "Visite sportive",
+            "Visite team sportivi"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Benvenuto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ciao! Sono Ada 👩🏼‍⚕️,  l'assistente virtuale del tuo medico di base. Posso:\n- fornirti contatti utili;\n- darti delle informazioni sullo studio del medico (orari, posizione, tipo di visite mediche);\n- offrirti un sistema di prenotazione, annullamento e modifiche delle visite mediche."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Che cosa vorresti fare?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "welcome",
+      "dialog_node": "Benvenuto"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Quale visita vorresti fissare?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1618070399257",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1618070399383",
+      "previous_sibling": "handler_4_1618070399383"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Dimmi la data in cui vorresti fissare l'appuntamento."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1618071391570",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1618071391603",
+      "previous_sibling": "handler_8_1618071391603"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Mi potresti dare il tuo numero di telefono (formato xxx-xxx-xxxx)? 📱 "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1618072882756",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1618072882776",
+      "previous_sibling": "handler_8_1618072882776"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1618149396866",
+      "context": {
+        "festivi": "@festivi"
+      },
+      "conditions": "@festivi",
+      "event_name": "input",
+      "dialog_node": "handler_10_1618149396867"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. $codice_fiscale"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1618339982826",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1618340019163",
+      "previous_sibling": "handler_7_1618339982826"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Numero di telefono ricevuto!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1618072416497",
+      "event_name": "filled",
+      "dialog_node": "handler_10_1618346102469",
+      "previous_sibling": "handler_3_1618072416513"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ho bisogno di alcune informazioni per prenotarti un colloquio per $operazione : la data, l'orario, il numero dei pazienti e il tuo codice fiscale."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1618071367779",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1618071446679",
+      "previous_sibling": "node_9_1618072126875"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1618073857386",
+      "context": {
+        "operazione": "@operazioni_medico"
+      },
+      "conditions": "@operazioni_medico",
+      "event_name": "input",
+      "dialog_node": "handler_1_1618073857388"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1618074190896",
+      "context": {
+        "data": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_1_1618074190915"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il medico di base può rilasciare:\n- prescrizioni di farmaci e di controlli specialistici; \n- certificati medici; \ne fare: \n- vaccinazioni;  \n- tamponi rapidi;\n- controlli di routine;\n- visite domiciliari;\n- visite a sportivi agonisti."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1618074721393",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "nomatch",
+      "dialog_node": "handler_1_1618171874322",
+      "previous_sibling": "handler_3_1618074721394"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lo studio medico 🏥 è aperto dal lunedì al venerdì dalle ore 10:00 alle ore 12:30 e dalle ore 16:30 alle ore 18:00. Il sabato mattina è aperto dalle ore 10:00 alle ore 12:30."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_4_1618149396866",
+      "conditions": "true",
+      "event_name": "nomatch",
+      "dialog_node": "handler_1_1618219604395",
+      "previous_sibling": "handler_9_1618149396867"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1618249095257",
+      "context": {
+        "codice_esenzione": "@codice_esenzione"
+      },
+      "conditions": "@codice_esenzione",
+      "event_name": "input",
+      "dialog_node": "handler_1_1618249095280"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1618339454509",
+      "context": {
+        "codice_fiscale": "@codice_fiscale"
+      },
+      "conditions": "@codice_fiscale",
+      "event_name": "input",
+      "dialog_node": "handler_1_1618339454510"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_16_1618075505115",
+      "context": {
+        "numero_telefono": "@numero_telefono"
+      },
+      "conditions": "@numero_telefono",
+      "event_name": "input",
+      "dialog_node": "handler_17_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Mi potresti dare il tuo numero di telefono (formato xxx-xxx-xxxx)? 📱 "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_16_1618075505115",
+      "event_name": "focus",
+      "dialog_node": "handler_18_1618075505115",
+      "previous_sibling": "handler_17_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ho bisogno del nome e cognome dell'accompagnatore per procedere."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1618072363902",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1618072648615",
+      "previous_sibling": "node_7_1618073087787"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Dimmi la data concordata."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1618073630838",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1618073630839",
+      "previous_sibling": "handler_4_1618073630839"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Dimmi il numero dei pazienti."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1618165901097",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1618165901100",
+      "previous_sibling": "handler_9_1618165901100"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In quel giorno lo studio medico è chiuso!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1618074738287",
+      "conditions": "@festivi",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1618171930930",
+      "previous_sibling": "handler_4_1618074738289"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Codice fiscale non riconosciuto."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1618339454509",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "nomatch",
+      "dialog_node": "handler_2_1618340124580",
+      "previous_sibling": "handler_9_1618339785464"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Numero di telefono non valido."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_25_1618075505115",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "filled",
+      "dialog_node": "handler_2_1618346211357",
+      "previous_sibling": "handler_8_1618346197428"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Numero di telefono non riconosciuto."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_16_1618075505115",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "filled",
+      "dialog_node": "handler_2_1618346295901",
+      "previous_sibling": "handler_5_1618346284073"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1618075505115",
+      "event_name": "focus",
+      "dialog_node": "handler_23_1618075505115",
+      "previous_sibling": "node_19_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_25_1618075505115",
+      "context": {
+        "numero_telefono": "@numero_telefono"
+      },
+      "conditions": "@numero_telefono",
+      "event_name": "input",
+      "dialog_node": "handler_26_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Mi potresti dare il tuo numero di telefono (formato xxx-xxx-xxxx)? 📱"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_25_1618075505115",
+      "event_name": "focus",
+      "dialog_node": "handler_27_1618075505115",
+      "previous_sibling": "handler_26_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_29_1618075505115",
+      "context": {
+        "data_appuntamento": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_30_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Dimmi la data in cui vorresti fissare l'appuntamento."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_29_1618075505115",
+      "event_name": "focus",
+      "dialog_node": "handler_31_1618075505115",
+      "previous_sibling": "handler_30_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Mi potresti dare il tuo numero di telefono (formato xxx-xxx-xxxx)? 📱"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1618072416497",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1618072416513",
+      "previous_sibling": "handler_7_1618072416513"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ho bisogno di alcune informazioni per annullarti una prenotazione: il numero della tua prenotazione, il tipo di visita medica, la data della visita e il numero dei pazienti."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1618073458627",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1618073514393",
+      "previous_sibling": "node_6_1618073993357"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Mi potresti dire la data di oggi?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1618074190896",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1618074190915",
+      "previous_sibling": "handler_1_1618074190915"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Dimmi il tipo di prenotazione che vuoi modificare."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1618074721393",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1618074721394",
+      "previous_sibling": "handler_7_1618074721394"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dimmi il giorno."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_10_1618149393445",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1618149393446",
+      "previous_sibling": "handler_5_1618149393446"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il medico di base può rilasciare: \n- prescrizioni di farmaci e di controlli specialistici;  \n- certificati medici;  \ne fare:  \n- vaccinazioni;  \n- tamponi;  \n- visite domiciliari; \n- visite a sportivi agonisti."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1618073857386",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "nomatch",
+      "dialog_node": "handler_3_1618171785491",
+      "previous_sibling": "handler_7_1618073857388"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Inserisci il codice di esenzione."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1618249095257",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1618249095280",
+      "previous_sibling": "handler_1_1618249095280"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_32_1618075505115",
+      "context": {
+        "ora_appuntamento": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_33_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "A che ora vorresti fissare il colloquio?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_32_1618075505115",
+      "event_name": "focus",
+      "dialog_node": "handler_34_1618075505115",
+      "previous_sibling": "handler_33_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_35_1618075505115",
+      "context": {
+        "numero_pazienti": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_36_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Dimmi il numero di pazienti che devono sostenere la visita."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_35_1618075505115",
+      "event_name": "focus",
+      "dialog_node": "handler_37_1618075505115",
+      "previous_sibling": "handler_36_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il medico può visitare al massimo 4 pazienti per volta."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_35_1618075505115",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number > 4",
+      "event_name": "filled",
+      "dialog_node": "handler_38_1618075505115",
+      "previous_sibling": "handler_37_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1618070399257",
+      "context": {
+        "operazione": "@operazioni_medico"
+      },
+      "conditions": "@operazioni_medico",
+      "event_name": "input",
+      "dialog_node": "handler_4_1618070399383"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il medico può visitare al massimo 4 pazienti per volta."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1618071511462",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number > 4",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1618071760757",
+      "previous_sibling": "handler_5_1618071511463"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1618072649115",
+      "context": {
+        "nome_accompagnatore": "@nome_utente"
+      },
+      "conditions": "@nome_utente",
+      "event_name": "input",
+      "dialog_node": "handler_4_1618072649130"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1618073630838",
+      "context": {
+        "data_appuntamento": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_4_1618073630839"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ho bisogno di alcune informazioni per modificare una prenotazione: il numero della tua prenotazione, il tipo di prenotazione e la relativa data."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1618074588389",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1618074665987",
+      "previous_sibling": "node_5_1618075254713"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1618074666792",
+      "context": {
+        "ticket": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_4_1618074666810"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Dimmi la data dell'appuntamento concordata."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1618074738287",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1618074738289",
+      "previous_sibling": "handler_6_1618074738289"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In quell'orario il medico non effettua visite!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_4_1618071438556",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-time.after('20:00:00') || @sys-time.before('09:00:00')",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1618167172332",
+      "previous_sibling": "handler_9_1618071438557"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In quel giorno lo studio medico è chiuso!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1618073630838",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@festivi",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1618171648221",
+      "previous_sibling": "handler_2_1618073630839"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In quell'orario il medico non effettua visite!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_32_1618075505115",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-time.after('20:00:00') || @sys-time.before('09:00:00')",
+      "event_name": "filled",
+      "dialog_node": "handler_4_1618304569805",
+      "previous_sibling": "handler_34_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ho bisogno di alcune informazioni per modificare un colloquio per $operazione : la data, l'orario, il numero dei pazienti e il tuo codice fiscale."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1618075505113",
+      "event_name": "focus",
+      "dialog_node": "handler_42_1618075505115",
+      "previous_sibling": "node_28_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Dimmi il numero di pazienti che devono sostenere la visita."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1618071511462",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1618071511463",
+      "previous_sibling": "handler_8_1618071511463"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Dammi il nominativo dell'accompagnatore."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1618072649115",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1618072649130",
+      "previous_sibling": "handler_4_1618072649130"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1618073514994",
+      "context": {
+        "ticket": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_5_1618073515010"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1618149393445",
+      "context": {
+        "feriali": "@feriali"
+      },
+      "conditions": "@feriali",
+      "event_name": "input",
+      "dialog_node": "handler_5_1618149393446"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Numero di telefono riconosciuto."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_16_1618075505115",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1618346284073",
+      "previous_sibling": "handler_18_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1618074738287",
+      "context": {
+        "data_appuntamento": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_6_1618074738289"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In quel giorno lo studio medico è chiuso!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1618071391570",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@festivi",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1618166293958",
+      "previous_sibling": "handler_10_1618071391603"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In quel giorno lo studio medico è chiuso!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_29_1618075505115",
+      "conditions": "@sys-date == @festivi",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1618166360161",
+      "previous_sibling": "handler_31_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il medico può visitare 4 pazienti per volta."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1618165901097",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "conditions": "@sys-number > 4",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1618171244892",
+      "previous_sibling": "handler_2_1618165901100"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1618072416497",
+      "context": {
+        "numero_telefono": "@numero_telefono"
+      },
+      "conditions": "@numero_telefono",
+      "event_name": "input",
+      "dialog_node": "handler_7_1618072416513"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Dimmi il tipo di visita che vorresti annullare."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_3_1618073857386",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1618073857388",
+      "previous_sibling": "handler_1_1618073857388"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1618074721393",
+      "context": {
+        "operazione": "@operazioni_medico"
+      },
+      "conditions": "@operazioni_medico",
+      "event_name": "input",
+      "dialog_node": "handler_7_1618074721394"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "L’esenzione per reddito, per età o per malattie croniche permette di effettuare gratuitamente tutte le prestazioni di diagnostica strumentale, di laboratorio e le altre prestazioni specialistiche ambulatoriali garantite dal Servizio sanitario nazionale, necessarie e appropriate alla propria condizione di salute."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1618249095257",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "nomatch",
+      "dialog_node": "handler_7_1618249362417",
+      "previous_sibling": "handler_3_1618249095280"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Dimmi il tuo codice fiscale."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1618339982826",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1618339982826",
+      "previous_sibling": "handler_8_1618339982826"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1618071391570",
+      "context": {
+        "data_appuntamento": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_8_1618071391603"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1618071438556",
+      "context": {
+        "ora_appuntamento": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_8_1618071438557"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1618071511462",
+      "context": {
+        "numero_pazienti": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_8_1618071511463"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1618072882756",
+      "context": {
+        "numero_telefono": "@numero_telefono"
+      },
+      "conditions": "@numero_telefono",
+      "event_name": "input",
+      "dialog_node": "handler_8_1618072882776"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Qual è il numero della tua prenotazione? Vedi SMS ricevuto dallo studio medico."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_1_1618073514994",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1618073515010",
+      "previous_sibling": "handler_5_1618073515010"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1618075334864",
+      "context": {
+        "data": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_8_1618075334864"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1618339982826",
+      "context": {
+        "codice_fiscale": "@codice_fiscale"
+      },
+      "conditions": "@codice_fiscale",
+      "event_name": "input",
+      "dialog_node": "handler_8_1618339982826"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Numero di telefono non riconosciuto!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1618072416497",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "nomatch",
+      "dialog_node": "handler_8_1618346116457",
+      "previous_sibling": "handler_10_1618346102469"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Numero di telefono non riconosciuto."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_4_1618072882756",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "nomatch",
+      "dialog_node": "handler_8_1618346144281",
+      "previous_sibling": "handler_9_1618345992359"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Numero di telefono riconosciuto."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_25_1618075505115",
+      "event_name": "filled",
+      "dialog_node": "handler_8_1618346197428",
+      "previous_sibling": "handler_27_1618075505115"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "A che ora vorresti fissare il colloquio?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1618071438556",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1618071438557",
+      "previous_sibling": "handler_8_1618071438557"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Qual è il numero della tua prenotazione?Vedi SMS ricevuto dallo studio medico."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1618074666792",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1618074666810",
+      "previous_sibling": "handler_4_1618074666810"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Mi potresti dire la data di oggi?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1618075334864",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1618075334864",
+      "previous_sibling": "handler_8_1618075334864"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_4_1618149396866",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1618149396867",
+      "previous_sibling": "handler_10_1618149396867"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1618165901097",
+      "context": {
+        "numero_pazienti": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_9_1618165901100"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il medico di base può rilasciare:\n- prescrizioni di farmaci e di controlli specialistici; \n- certificati medici; \ne fare: \n- vaccinazioni;  \n- tamponi rapidi;\n- controlli di routine;\n- visite domiciliari;\n- visite a sportivi agonisti."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_4_1618070399257",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "nomatch",
+      "dialog_node": "handler_9_1618170831676",
+      "previous_sibling": "handler_10_1618070399383"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Dimmi il tuo codice fiscale."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1618339454509",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1618339454510",
+      "previous_sibling": "handler_1_1618339454510"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. $codice_fiscale"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1618339454509",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1618339785464",
+      "previous_sibling": "handler_9_1618339454510"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Codice fiscale non riconosciuto."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1618339982826",
+      "next_step": {
+        "behavior": "reprompt"
+      },
+      "event_name": "nomatch",
+      "dialog_node": "handler_9_1618340037349",
+      "previous_sibling": "handler_10_1618340019163"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Numero di telefono ricevuto!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_4_1618072882756",
+      "event_name": "filled",
+      "dialog_node": "handler_9_1618345992359",
+      "previous_sibling": "handler_10_1618072882776"
+    },
+    {
+      "type": "standard",
+      "title": "In altri casi",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Scusa, non ti ho compreso. 🤨"
+              },
+              {
+                "text": "Mi dispiace, non ho capito la tua domanda. 🙁"
+              },
+              {
+                "text": "Non ho capito la tua richiesta. Potresti ripeterla? 😟"
+              },
+              {
+                "text": "Oggi non ci sto con la testa!  😞\nVorresti parlare con il tuo medico di famiglia? Di seguito i suoi contatti telefonici: \n+39 300 777 111 📱\n0825 000 111 ☎️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "In altri casi",
+      "previous_sibling": "node_5_1618036906617",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "folder",
+      "title": "Annullare prenotazione",
+      "conditions": "#annullare_prenotazione",
+      "dialog_node": "node_10_1618038271219",
+      "previous_sibling": "node_9_1618038269485"
+    },
+    {
+      "type": "standard",
+      "title": "Contatti utili",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Numeri utili 📞\nPronto soccorso: 118\nGuardia medica: +39 330 999888, 0825 000 000\nNumero Covid Regione Campania: 800 867 388\nMedico di base: +39 300 777 111, 0825 000 111\nASL Avellino: 0825 291111\n\n\nE-mail e PEC utili 📧\nMedico di base: Medico.base@nerd.it, Medico.base@pec.nerd.it\nASL Avellino: info@aslavellino.it, protocollo@pec.aslavellino.it"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#contatti_utili",
+      "dialog_node": "node_10_1618038320491",
+      "previous_sibling": "node_4_1618038272371"
+    },
+    {
+      "type": "frame",
+      "title": "Tipo di visite",
+      "parent": "node_9_1618038269485",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#fare_prenotazione",
+      "dialog_node": "node_10_1618070265168"
+    },
+    {
+      "type": "standard",
+      "title": "Richiesta credenziali accompagnatore",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Allora ricapitoliamo:\nvorresti prenotare un appuntamento per $operazione,\nil giorno $data_appuntamento,\nalle ore $ora_appuntamento\ncon $numero_pazienti paziente/i ed un accompagnatore.\nConfermi?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1618072123882",
+      "conditions": "#si",
+      "dialog_node": "node_10_1618072363902"
+    },
+    {
+      "type": "frame",
+      "title": "Prenotazione solo paziente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfetto. Sei stato aggiunto nell'elenco! 📋"
+              },
+              {
+                "text": "Appuntamento registrato con successo. ✅"
+              },
+              {
+                "text": "Ok. La tua richiesta è stata presa in carico. 👍"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Riceverai appena possibile un SMS di conferma dallo studio medico e, in allegato, il numero della tua prenotazione. ✉️\nÈ possibile disdire l'appuntamento 24h prima. 🕰️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Sono a disposizione per ulteriori richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1618072123882",
+      "context": {
+        "operazione": null,
+        "codice_fiscale": null,
+        "numero_pazienti": null,
+        "numero_telefono": null,
+        "ora_appuntamento": null,
+        "data_appuntamento": null
+      },
+      "conditions": "#no",
+      "dialog_node": "node_10_1618072378870",
+      "previous_sibling": "node_10_1618072363902"
+    },
+    {
+      "type": "standard",
+      "title": "Chiacchierata",
+      "output": {
+        "generic": [
+          {
+            "source": "https://www.emoticonsignificato.it/img/emojis/female-health-worker_1f469-200d-2695-fe0f.png?ezimgfmt=rs:60x60/rscb10/ng:webp/ngcb10",
+            "response_type": "image"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#saluti || #addii || #ringraziamenti || #feedback_positivo || #feedback_negativo",
+      "dialog_node": "node_1_1618035820624",
+      "previous_sibling": "Benvenuto"
+    },
+    {
+      "type": "frame",
+      "title": "Dati da modificare per la prenotazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Allora vorresti aggiornare i dati dell'appuntamento per $operazione con le seguenti caratteristiche: giorno $data_appuntamento alle ore $ora_appuntamento con $numero_pazienti paziente/i.\nConfermi?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1618075334861",
+      "conditions": "#si",
+      "dialog_node": "node_12_1618075505113"
+    },
+    {
+      "type": "standard",
+      "title": "Accompagnatore",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I pazienti possono essere accompagnati anche da un accompagnatore 🧍‍♂️. È presente?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1618075505113",
+      "conditions": "#si",
+      "dialog_node": "node_13_1618075505115"
+    },
+    {
+      "type": "standard",
+      "title": "Richiesta credenziali accompagnatore",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Allora ricapitoliamo:\nvorresti prenotare un appuntamento per $operazione,\nil giorno $data_appuntamento,\nalle ore $ora_appuntamento\ncon $numero_pazienti paziente/i ed un accompagnatore.\nConfermi?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1618075505115",
+      "conditions": "#si",
+      "dialog_node": "node_14_1618075505115"
+    },
+    {
+      "type": "frame",
+      "title": "Conferma della prenotazione con accompagnatore",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfetto. Sei stato aggiunto nell'elenco! 📋"
+              },
+              {
+                "text": "Appuntamento registrato con successo. ✔️"
+              },
+              {
+                "text": "Ok. La tua richiesta è stata presa in carico. 👍"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Riceverai appena possibile un SMS di conferma dallo studio medico e, in allegato, il numero della tua prenotazione. ✉️\nÈ possibile disdire l'appuntamento 24h prima. 🕰️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Sono a disposizione per ulteriori richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1618075505115",
+      "context": {
+        "ticket": null,
+        "operazione": null,
+        "codice_fiscale": null,
+        "numero_pazienti": null,
+        "numero_telefono": null,
+        "ora_appuntamento": null,
+        "data_appuntamento": null
+      },
+      "conditions": "#si",
+      "dialog_node": "node_15_1618075505115"
+    },
+    {
+      "type": "standard",
+      "title": "Rifiuto prenotazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Va bene. Allora non registro la tua prenotazione. ❌"
+              },
+              {
+                "text": "Ok, allora la tua prenotazione non la registro. ❌"
+              },
+              {
+                "text": "Va bene. Non registro la tua prenotazione. ❌"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Sono a disposizione per ulteriori richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1618075505115",
+      "conditions": "#no",
+      "dialog_node": "node_19_1618075505115",
+      "previous_sibling": "node_15_1618075505115"
+    },
+    {
+      "type": "standard",
+      "title": "Codice esenzione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "È possibile inserire nella prescrizione di farmaci o di visite specialistiche il codice esenzione o ticket sanitario. Ne sei in possesso?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1618070265168",
+      "conditions": "@operazioni_medico:Prescrizione",
+      "dialog_node": "node_2_1618248948258"
+    },
+    {
+      "type": "frame",
+      "title": "Prenotazione solo paziente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfetto. Sei stato aggiunto nell'elenco! 📋"
+              },
+              {
+                "text": "Appuntamento registrato con successo. ✅"
+              },
+              {
+                "text": "Ok. La tua richiesta è stata presa in carico. 👍"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Riceverai a appena possibile un SMS di conferma dallo studio medico e, in allegato, il numero della tua prenotazione. ✉️\nÈ possibile disdire l'appuntamento 24h prima. 🕰️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Sono a disposizione per ulteriori richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1618075505115",
+      "context": {
+        "ticket": null,
+        "operazione": null,
+        "codice_fiscale": null,
+        "numero_pazienti": null,
+        "numero_telefono": null,
+        "ora_appuntamento": null,
+        "data_appuntamento": null
+      },
+      "conditions": "#no",
+      "dialog_node": "node_24_1618075505115",
+      "previous_sibling": "node_14_1618075505115"
+    },
+    {
+      "type": "standard",
+      "title": "Abbandono prenotazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Va bene. Non registro la tua prenotazione. ❌"
+              },
+              {
+                "text": "Ok. La tua richiesta di prenotazione non la prendo in carico. ❌"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Rimango a disposizione per ulteriori domande."
+              },
+              {
+                "text": "Sono a disposizione per ulteriori richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_12_1618075505113",
+      "conditions": "#no",
+      "dialog_node": "node_28_1618075505115",
+      "previous_sibling": "node_13_1618075505115"
+    },
+    {
+      "type": "standard",
+      "title": "Ringraziamenti",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "È stato un piacere 😀"
+              },
+              {
+                "text": "Figurati! 👍"
+              },
+              {
+                "text": "Di nulla 😉"
+              },
+              {
+                "text": "Sono contenta di essere stata di aiuto 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Sono a disposizione per ulteriori richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1618035820624",
+      "conditions": "#ringraziamenti",
+      "dialog_node": "node_3_1618036920408",
+      "previous_sibling": "node_6_1618036917820"
+    },
+    {
+      "type": "standard",
+      "title": "Compiti medico di base",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il medico di base può rilasciare:\n- prescrizioni di farmaci e di controlli specialistici; \n- certificati medici; \ne fare: \n- vaccinazioni;  \n- tamponi rapidi;\n- controlli di routine;\n- visite domiciliari;\n- visite a sportivi agonisti."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Ti vorresti prenotare ad una di queste visite?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1618039093862",
+      "conditions": "#operazioni_medico",
+      "dialog_node": "node_3_1618039335632",
+      "previous_sibling": "node_4_1618039333280"
+    },
+    {
+      "type": "folder",
+      "title": "Modificare prenotazione",
+      "conditions": "#modificare_prenotazione",
+      "dialog_node": "node_4_1618038272371",
+      "previous_sibling": "node_10_1618038271219"
+    },
+    {
+      "type": "standard",
+      "title": "Studio medico",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#operazioni_medico || #orari_apertura || #posizione_studio_medico",
+      "dialog_node": "node_4_1618039093862",
+      "previous_sibling": "node_5_1618211523203"
+    },
+    {
+      "type": "standard",
+      "title": "Posizione studio medico",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "L'indirizzo dello studio medico è Corso Vittorio Emanuele II 0, 83100, Avellino AV, Campania, Italia.  Se clicchi <a href=\"https://www.google.it/maps/place/Corso+Vittorio+Emanuele+II,+83100+Avellino+AV/@40.9138341,14.7852946,17z/data=!3m1!4b1!4m5!3m4!1s0x133bcc506b59fb8f:0xb917a9c8bf26df6d!8m2!3d40.9138301!4d14.7874833\"> qui </a> troverai una mappa 🗺 con le indicazioni per arrivarci."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Sono a disposizione per ulteriori richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1618039093862",
+      "conditions": "#posizione_studio_medico",
+      "dialog_node": "node_4_1618039333280",
+      "previous_sibling": "node_6_1618039330003"
+    },
+    {
+      "type": "frame",
+      "title": "Conferma della prenotazione con accompagnatore",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfetto. Sei stato aggiunto nell'elenco! 📋"
+              },
+              {
+                "text": "Appuntamento registrato con successo. ✔️"
+              },
+              {
+                "text": "Ok. La tua richiesta è stata presa in carico. 👍"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Riceverai appena possibile un SMS di conferma dallo studio medico e, in allegato, il numero della tua prenotazione. ✉️\nÈ possibile disdire l'appuntamento 24h prima. 🕰️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Sono a disposizione per ulteriori richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1618072363902",
+      "context": {
+        "operazione": null,
+        "codice_fiscale": null,
+        "numero_pazienti": null,
+        "numero_telefono": null,
+        "ora_appuntamento": null,
+        "data_appuntamento": null
+      },
+      "conditions": "#si",
+      "dialog_node": "node_4_1618072846108"
+    },
+    {
+      "type": "standard",
+      "title": "Informazioni studio medico",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Le informazioni che ti posso fornire sullo studio medico riguardano:\n- gli orari di apertura 🕰️;\n- la posizione 🗺️;\n- i tipi di visite mediche che può fare il medico 🩺.\nCosa vorresti sapere?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#info_studio_generali",
+      "dialog_node": "node_4_1618165366344",
+      "previous_sibling": "node_1_1618035820624"
+    },
+    {
+      "type": "standard",
+      "title": "Connettimi al medico di famiglia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Di seguito i contatti telefonici del medico di base: \n+39 300 777 111 📱\n0825 000 111 ☎️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#aiuto",
+      "dialog_node": "node_5_1618036906617",
+      "previous_sibling": "node_10_1618038320491"
+    },
+    {
+      "type": "standard",
+      "title": "Giudizio negativo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mi dispiace tantissimo 😔"
+              },
+              {
+                "text": "Mi dispiace di non essere stata d'aiuto 😫"
+              },
+              {
+                "text": "Oh... scusami se non ti ho opportunamente aiutato. ☹️"
+              },
+              {
+                "text": "Scusami se non ti ho dato una mano  😔"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Tuttavia, ti ringrazio per il feedback: mi sprona a migliorare 🙂."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1618035820624",
+      "conditions": "#feedback_negativo",
+      "dialog_node": "node_5_1618036926633",
+      "previous_sibling": "node_6_1618036923080"
+    },
+    {
+      "type": "frame",
+      "title": "Richiesta dati per la prenotazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Allora vorresti prenotare un appuntamento per $operazione il giorno $data_appuntamento alle ore $ora_appuntamento con $numero_pazienti paziente/i.\nConfermi?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ],
+        "object_eraser": [
+          "<? $ora_appuntamento.clear() ?>",
+          "<? $operazione.clear() ?>",
+          "<? $data_appuntamento.clear() ?>",
+          "<? $numero_pazienti.clear() ?>",
+          "<? $numero_telefono.clear() ?>"
+        ]
+      },
+      "parent": "node_7_1618071145913",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#si",
+      "dialog_node": "node_5_1618071367779"
+    },
+    {
+      "type": "standard",
+      "title": "Abbandono modifica prenotazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Allora non prendo in carico la tua richiesta di modifica della prenotazione.❌"
+              },
+              {
+                "text": "Bene. Allora non modifico la prenotazione. ❌"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Sono a disposizione per eventuali richieste."
+              },
+              {
+                "text": "Rimango a disposizione per altre richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1618074588389",
+      "conditions": "#no",
+      "dialog_node": "node_5_1618075254713",
+      "previous_sibling": "node_6_1618075334861"
+    },
+    {
+      "type": "standard",
+      "title": "Andare alla prenotazione",
+      "parent": "node_3_1618039335632",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1618070265168"
+      },
+      "conditions": "#si",
+      "dialog_node": "node_5_1618160897321"
+    },
+    {
+      "type": "standard",
+      "title": "Sistema di prenotazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il sistema di prenotazione ti permette di prenotare una visita medica che viene registrata 🖥️ e lo studio medico ti invierà sul cellulare un SMS di conferma con il numero della prenotazione 📨.\nHai la possibilità, successivamente, di annullare o modificare la visita medica 24h 🕰️ prima della data fissata."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Che cosa vorresti fare?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#sistema_prenotazione",
+      "dialog_node": "node_5_1618211523203",
+      "previous_sibling": "node_4_1618165366344"
+    },
+    {
+      "type": "standard",
+      "title": "Saluti",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ciao.  Come posso aiutarti oggi?"
+              },
+              {
+                "text": "Eccomi. Che cosa vorresti chiedermi?"
+              },
+              {
+                "text": "Hey! Come posso esserti di aiuto?"
+              },
+              {
+                "text": "Dimmi!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1618035820624",
+      "conditions": "#saluti",
+      "dialog_node": "node_6_1618036913778"
+    },
+    {
+      "type": "standard",
+      "title": "Addii",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Buona giornata! 👋"
+              },
+              {
+                "text": "Arrivederci 👋"
+              },
+              {
+                "text": "È stato un piacere parlare con te 👋😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1618035820624",
+      "conditions": "#addii",
+      "dialog_node": "node_6_1618036917820",
+      "previous_sibling": "node_6_1618036913778"
+    },
+    {
+      "type": "standard",
+      "title": "Giudizio positivo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ti ringrazio per il feedback: mi stimola a dare il meglio di me 😉"
+              },
+              {
+                "text": "Il tuo giudizio mi rende felice 😆"
+              },
+              {
+                "text": "Grazie mille! 😊"
+              },
+              {
+                "text": "Sono contenta di essere stata d'aiuto 😄"
+              },
+              {
+                "text": "Sono contenta di averti aiutato oggi 😉"
+              },
+              {
+                "text": "Grazie per il tuo giudizio! 😃"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1618035820624",
+      "conditions": "#feedback_positivo",
+      "dialog_node": "node_6_1618036923080",
+      "previous_sibling": "node_3_1618036920408"
+    },
+    {
+      "type": "frame",
+      "title": "Apertura studio medico",
+      "parent": "node_4_1618039093862",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#orari_apertura",
+      "dialog_node": "node_6_1618039330003"
+    },
+    {
+      "type": "standard",
+      "title": "Disdire annullamento visita",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Allora non prendo in carico la tua richiesta di annullamento della prenotazione.❌"
+              },
+              {
+                "text": "Bene. Allora non registro la tua richiesta di annullamento dell'appuntamento. ❌"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Sono a disposizione per eventuali richieste."
+              },
+              {
+                "text": "Rimango a disposizione per altre richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1618073458627",
+      "conditions": "#no",
+      "dialog_node": "node_6_1618073993357",
+      "previous_sibling": "node_7_1618073989321"
+    },
+    {
+      "type": "frame",
+      "title": "Verifica data per modificare la prenotazione",
+      "output": {},
+      "parent": "node_9_1618074588389",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#si",
+      "dialog_node": "node_6_1618075334861"
+    },
+    {
+      "type": "standard",
+      "title": "Prenotazione appuntamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vuoi che ti prenoti un colloquio su $operazione?"
+              },
+              {
+                "text": "Vuoi che ti fissi un appuntamento per $operazione con il medico?"
+              },
+              {
+                "text": "Vorresti fissare un appuntamento per $operazione?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1618070265168",
+      "conditions": "@operazioni_medico != \"Prescrizione\"",
+      "dialog_node": "node_7_1618071145913",
+      "previous_sibling": "node_2_1618248948258"
+    },
+    {
+      "type": "standard",
+      "title": "Abbandono",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Va bene. Non registro la tua prenotazione. ❌"
+              },
+              {
+                "text": "Ok. La tua richiesta di prenotazione non la prendo in carico. ❌"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Sono a disposizione per ulteriori richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1618071145913",
+      "conditions": "#no",
+      "dialog_node": "node_7_1618071936191",
+      "previous_sibling": "node_5_1618071367779"
+    },
+    {
+      "type": "standard",
+      "title": "Rifiuto prenotazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Va bene. Allora non registro la tua prenotazione. ❌"
+              },
+              {
+                "text": "Ok, allora la tua prenotazione non la registro. ❌"
+              },
+              {
+                "text": "Va bene. Non registro la tua prenotazione. ❌"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Sono a disposizione per ulteriori richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1618072363902",
+      "conditions": "#no",
+      "dialog_node": "node_7_1618073087787",
+      "previous_sibling": "node_4_1618072846108"
+    },
+    {
+      "type": "frame",
+      "title": "Conferma annullamento prenotazione",
+      "parent": "node_9_1618073458627",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#si",
+      "dialog_node": "node_7_1618073989321"
+    },
+    {
+      "type": "frame",
+      "title": "Inserimento codice esenzione ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok i codici di esenzione sono i seguenti: $codice_esenzione."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1618248948258",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1618071145913"
+      },
+      "conditions": "#si",
+      "dialog_node": "node_7_1618249046514"
+    },
+    {
+      "type": "standard",
+      "title": "No codice esenzione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1618248948258",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1618071367779"
+      },
+      "conditions": "#no",
+      "dialog_node": "node_7_1618249051044",
+      "previous_sibling": "node_7_1618249046514"
+    },
+    {
+      "type": "folder",
+      "title": "Fare prenotazione",
+      "conditions": "#fare_prenotazione",
+      "digress_in": "returns",
+      "dialog_node": "node_9_1618038269485",
+      "previous_sibling": "node_4_1618039093862"
+    },
+    {
+      "type": "standard",
+      "title": "Accompagnatore",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I pazienti possono essere accompagnati anche da un accompagnatore 🧍‍♂️. È presente?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1618071367779",
+      "conditions": "#si",
+      "dialog_node": "node_9_1618072123882",
+      "previous_sibling": "response_3_1618248781288"
+    },
+    {
+      "type": "standard",
+      "title": "Abbandono prenotazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Va bene. Non registro la tua prenotazione. ❌"
+              },
+              {
+                "text": "Ok. La tua richiesta di prenotazione non la prendo in carico. ❌"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Rimango a disposizione per ulteriori domande."
+              },
+              {
+                "text": "Sono a disposizione per ulteriori richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_5_1618071367779",
+      "conditions": "#no",
+      "dialog_node": "node_9_1618072126875",
+      "previous_sibling": "node_9_1618072123882"
+    },
+    {
+      "type": "frame",
+      "title": "Richiesta dati prenotazione da annullare",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Allora vorresti annullare un appuntamento per $operazione numero ticket n. $ticket il giorno $data_appuntamento per $numero_pazienti pazienti. Confermi?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1618038271219",
+      "conditions": "#annullare_prenotazione",
+      "dialog_node": "node_9_1618073458627"
+    },
+    {
+      "type": "frame",
+      "title": "Richiesta dati della prenotazione da modificare",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Allora vorresti annullare un appuntamento per $operazione numero $ticket il giorno $data_appuntamento. Confermi?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1618038272371",
+      "conditions": "#modificare_prenotazione",
+      "dialog_node": "node_9_1618074588389"
+    },
+    {
+      "type": "standard",
+      "title": "Non andare al sistema di prenotazione",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, rimango a disposizione per altre richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1618039335632",
+      "conditions": "#no",
+      "dialog_node": "node_9_1618160899747",
+      "previous_sibling": "node_5_1618160897321"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Il tuo appuntamento è stato cancellato con successo. ✔️"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Sono a disposizione per ulteriori richieste."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1618073989321",
+      "dialog_node": "response_10_1618074544578",
+      "previous_sibling": "response_7_1618074504227"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mi dispiace, non puoi modificare un appuntamento lo stesso giorno in cui lo hai fissato. ❌"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1618075334861",
+      "conditions": "$data == $data_appuntamento",
+      "dialog_node": "response_10_1618075334864",
+      "previous_sibling": "node_12_1618075505113"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ciao $nome_utente, io sono Ada 👩🏼‍⚕️,  l'assistente virtuale del tuo medico di base. Ti posso fornire contatti utili ed informazioni sullo studio del medico e ti posso aiutare a prenotare visite mediche."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Benvenuto",
+      "disabled": true,
+      "dialog_node": "response_10_1618089605448"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, puoi modificare la prenotazione ✅"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1618075334861",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_12_1618075505113"
+      },
+      "dialog_node": "response_11_1618075334864",
+      "previous_sibling": "response_10_1618075334864"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Benvenuto",
+      "disabled": true,
+      "conditions": "$action_result_1",
+      "dialog_node": "response_1_1618089607169",
+      "previous_sibling": "response_10_1618089605448"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "Benvenuto",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1618089608024",
+      "previous_sibling": "response_1_1618089607169"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il medico effettua controlli di routine 📋 dal lunedì al venerdì dalle ore 11:30 alle ore 12:30, il lunedì e giovedì pomeriggio dalle ore 17:00 alle ore 17:30."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1618070265168",
+      "conditions": "@operazioni_medico:(Controllo delle analisi)",
+      "dialog_node": "response_2_1618070398366",
+      "previous_sibling": "slot_4_1618070399257"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il medico rilascia prescrizioni di farmaci 💊 e di visite specialistiche 🏥 i giorni lunedì dalle 11:00 alle 11:30, mercoledì e giovedì dalle 17:30 alle 18:00, venerdì dalle 11:00 alle 11:30."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1618070265168",
+      "conditions": "@operazioni_medico:Prescrizione",
+      "dialog_node": "response_3_1618070655070",
+      "previous_sibling": "response_7_1618070596387"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il medico effettua tamponi rapidi i giorni lunedì e mercoledì dalle ore 10:00 alle ore 11:00 e dalle ore 16:30 alle ore 17:00, il sabato mattina dalle ore 11:30 alle ore 12:30."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1618070265168",
+      "conditions": "@operazioni_medico:Tampone",
+      "dialog_node": "response_3_1618071012715",
+      "previous_sibling": "response_3_1618070655070"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il medico fa visite domiciliari 🧰 dal lunedì al sabato mattina dalle ore 09:00 alle ore 10:30, dal lunedì al venerdì pomeriggio dalle ore 15:00 alle ore 16:00 e dalle ore 18:30 alle ore 20:00."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1618070265168",
+      "conditions": "@operazioni_medico:(Visita domiciliare)",
+      "dialog_node": "response_3_1618071075230",
+      "previous_sibling": "response_7_1618071046544"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Allora vorresti prenotare un appuntamento per $operazione il giorno $data_appuntamento alle ore $ora_appuntamento con $numero_pazienti paziente/i.\nConfermi?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1618071367779",
+      "disabled": true,
+      "conditions": "@operazioni_medico != \"Prescrizione\"",
+      "dialog_node": "response_3_1618248781288"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il medico può visitare sportivi agonisti 🏊🤾‍♀️ il venerdì pomeriggio dalle ore 16:30 alle ore 18:00."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1618070265168",
+      "conditions": "@operazioni_medico:(Visite sportivi)",
+      "dialog_node": "response_4_1618071103043",
+      "previous_sibling": "response_3_1618071075230"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il medico effettua le vaccinazioni 💉 il martedì pomeriggio dalle ore 16:30 alle ore 17:30, il sabato mattina dalle ore 10:00 alle ore 11:30."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1618070265168",
+      "conditions": "@operazioni_medico:Vaccino",
+      "dialog_node": "response_7_1618070596387",
+      "previous_sibling": "response_2_1618070398366"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Il medico rilascia certificati 📄 martedì e giovedì dalle ore 10:00 alle ore 10:30."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1618070265168",
+      "conditions": "@operazioni_medico:Certificato",
+      "dialog_node": "response_7_1618071046544",
+      "previous_sibling": "response_3_1618071012715"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mi dispiace, non puoi disdire un appuntamento lo stesso giorno in cui lo hai fissato. ❌"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1618073989321",
+      "conditions": "$data == $data_appuntamento",
+      "dialog_node": "response_7_1618074504227"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lo studio medico 🏥 è aperto il sabato mattina dalle ore 10:00 alle ore 12:30."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1618039330003",
+      "conditions": "@feriali:Sabato",
+      "dialog_node": "response_8_1618149600614",
+      "previous_sibling": "response_9_1618040099299"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lo studio medico 🏥 è chiuso per l'intera giornata. 📅"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1618039330003",
+      "conditions": "@festivi",
+      "dialog_node": "response_9_1618039688527",
+      "previous_sibling": "slot_4_1618149396866"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lo studio medico 🏥 è aperto dal lunedì al venerdì dalle ore 10:00 alle ore 12:30 e dalle ore 16:30 alle ore 18:00."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1618039330003",
+      "conditions": "@feriali != \"Sabato\"",
+      "dialog_node": "response_9_1618040099299",
+      "previous_sibling": "response_9_1618039688527"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1618039330003",
+      "variable": "$feriali",
+      "dialog_node": "slot_10_1618149393445"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1618071367779",
+      "variable": "$numero_pazienti",
+      "dialog_node": "slot_1_1618071511462",
+      "previous_sibling": "slot_4_1618071438556"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1618073458627",
+      "variable": "$ticket",
+      "dialog_node": "slot_1_1618073514994",
+      "previous_sibling": "handler_3_1618073514393"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1618074588389",
+      "variable": "$data_appuntamento",
+      "dialog_node": "slot_1_1618074738287",
+      "previous_sibling": "slot_7_1618074721393"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_15_1618075505115",
+      "variable": "$numero_telefono",
+      "dialog_node": "slot_16_1618075505115"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_24_1618075505115",
+      "variable": "$numero_telefono",
+      "dialog_node": "slot_25_1618075505115"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_12_1618075505113",
+      "variable": "$data_appuntamento",
+      "dialog_node": "slot_29_1618075505115",
+      "previous_sibling": "handler_42_1618075505115"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1618072378870",
+      "variable": "$numero_telefono",
+      "dialog_node": "slot_3_1618072416497"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1618072363902",
+      "variable": "$nome_accompagnatore",
+      "dialog_node": "slot_3_1618072649115",
+      "previous_sibling": "handler_2_1618072648615"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1618073458627",
+      "variable": "$operazione",
+      "dialog_node": "slot_3_1618073857386",
+      "previous_sibling": "slot_5_1618073630838"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_12_1618075505113",
+      "variable": "$ora_appuntamento",
+      "dialog_node": "slot_32_1618075505115",
+      "previous_sibling": "slot_29_1618075505115"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_12_1618075505113",
+      "variable": "$numero_pazienti",
+      "dialog_node": "slot_35_1618075505115",
+      "previous_sibling": "slot_32_1618075505115"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1618070265168",
+      "variable": "$operazione",
+      "dialog_node": "slot_4_1618070399257",
+      "previous_sibling": "node_7_1618071145913"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1618071367779",
+      "variable": "$ora_appuntamento",
+      "dialog_node": "slot_4_1618071438556",
+      "previous_sibling": "slot_6_1618071391570"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1618072846108",
+      "variable": "$numero_telefono",
+      "dialog_node": "slot_4_1618072882756"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1618074588389",
+      "variable": "$ticket",
+      "dialog_node": "slot_4_1618074666792",
+      "previous_sibling": "handler_4_1618074665987"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1618039330003",
+      "variable": "$festivi",
+      "dialog_node": "slot_4_1618149396866",
+      "previous_sibling": "slot_10_1618149393445"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1618073458627",
+      "variable": "$data_appuntamento",
+      "dialog_node": "slot_5_1618073630838",
+      "previous_sibling": "slot_1_1618073514994"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1618249046514",
+      "variable": "$codice_esenzione",
+      "dialog_node": "slot_5_1618249095257"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_12_1618075505113",
+      "variable": "$codice_fiscale",
+      "dialog_node": "slot_5_1618339982826",
+      "previous_sibling": "slot_35_1618075505115"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1618071367779",
+      "variable": "$data_appuntamento",
+      "dialog_node": "slot_6_1618071391570",
+      "previous_sibling": "handler_1_1618071446679"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1618073989321",
+      "variable": "$data",
+      "dialog_node": "slot_7_1618074190896",
+      "previous_sibling": "response_10_1618074544578"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1618074588389",
+      "variable": "$operazione",
+      "dialog_node": "slot_7_1618074721393",
+      "previous_sibling": "slot_4_1618074666792"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1618075334861",
+      "variable": "$data",
+      "dialog_node": "slot_7_1618075334864",
+      "previous_sibling": "response_11_1618075334864"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1618073458627",
+      "variable": "$numero_pazienti",
+      "dialog_node": "slot_9_1618165901097",
+      "previous_sibling": "slot_3_1618073857386"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1618071367779",
+      "variable": "$codice_fiscale",
+      "dialog_node": "slot_9_1618339454509",
+      "previous_sibling": "slot_1_1618071511462"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "10:30"
+    },
+    {
+      "text": "11:00"
+    },
+    {
+      "text": "12:20 12 Aprile per 1 paziente"
+    },
+    {
+      "text": "21 Maggio 2021 alle pre 11:00 per 1 paziente"
+    },
+    {
+      "text": "21 Novembre 2023"
+    },
+    {
+      "text": "25 Dicembre"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Intendevi dire:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nessuno dei precedenti"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Intendevi dire:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Ada",
+  "language": "it",
+  "description": ""
+}
