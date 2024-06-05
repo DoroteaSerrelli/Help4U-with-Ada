@@ -1,4 +1,5 @@
 #Help4U with Ada
+
 Nel periodo di emergenza sanitaria causata dal virus SARS-CoV-2, abbiamo realizzato una chatbot che potesse essere d’aiuto 24h/7gg ai pazienti di un medico di base.
 Essi possono chiedere informazioni riguardo lo studio medico, i contatti dei servizi sanitari presenti sul nostro territorio ed un sistema di prenotazione.
 Ispirandoci alla matematica Ada Lovelace, considerata la madrina dell’informatica, abbiamo chiamato l’assistente della nostra chatbot Ada.
